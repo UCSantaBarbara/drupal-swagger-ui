@@ -1,5 +1,5 @@
 name = Swagger UI Field Formatter
 description = Provides a field formatter for file fields with Swagger YAML or JSON files uploaded.
 core = 7.x
-version = 7.x-2.0-beta1
 package = UCSB
+version = 7.x-2.0-beta1
