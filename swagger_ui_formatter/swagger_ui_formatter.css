@@ -1,0 +1,4 @@
+/* blocks boostraps pre tag so swagger ui can format it correctly */
+pre {
+  all: initial;
+}

@@ -122,6 +122,7 @@ function swagger_ui_formatter_field_formatter_view($entity_type, $entity, $field
     $validator_url = $settings['validator_url'];
   }
 
+  drupal_add_css($module_path . '/swagger_ui_formatter.css', 'file');
   drupal_add_js($module_path . '/swagger_ui_formatter.js', 'file');
   drupal_add_js(array(
     'swagger_ui_formatter' => array(
