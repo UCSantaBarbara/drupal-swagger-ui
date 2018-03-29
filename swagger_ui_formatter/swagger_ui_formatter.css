@@ -1,4 +1,6 @@
-/* blocks boostraps pre tag so swagger ui can format it correctly */
+/* resets some of bootstraps pre tag css so swagger ui can format it correctly */
 pre {
-  all: initial;
+  padding: initial;
+  background-color: initial;
+  border: initial;
 }
