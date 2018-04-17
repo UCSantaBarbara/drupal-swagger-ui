@@ -4,3 +4,7 @@ pre {
   background-color: initial;
   border: initial;
 }
+
+.response pre.example.microlight {
+  line-height: initial;
+}
