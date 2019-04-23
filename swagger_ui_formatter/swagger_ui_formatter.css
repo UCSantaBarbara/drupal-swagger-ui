@@ -1,10 +1,22 @@
-/* resets some of bootstraps pre tag css so swagger ui can format it correctly */
+/*
+Some styles used on developer.ucsb.edu conflict with the swagger UI. 
+
+These are needed to reset the look to make it work.
+*/
+
+
+/* override bootstrap.css */
 pre {
-  padding: initial;
   background-color: initial;
-  border: initial;
+  border: initial !important;
+  padding: initial !important;
 }
 
 .response pre.example.microlight {
-  line-height: initial;
+  line-height: initial !important;
+}
+
+/* override github_markdown.css */
+.content pre {
+  background-color: initial !important;
 }
